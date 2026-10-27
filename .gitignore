@@ -1,0 +1,31 @@
+# Arquivos pesados ficam no OneDrive, não no Git
+*.af
+*.afpub
+*.afdesign
+*.afphoto
+*.indd
+*.idml
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+*.psd
+*.mp4
+*.mp3
+*.wav
+*.zip
+*.ttf
+*.otf
+*.docx
+*.xlsx
+~$*
+
+# Sistema e Python
+Thumbs.db
+desktop.ini
+.DS_Store
+__pycache__/
+*.pyc

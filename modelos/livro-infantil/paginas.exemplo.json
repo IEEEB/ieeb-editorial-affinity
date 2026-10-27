@@ -1,0 +1,28 @@
+{
+  "formato": { "largura": 210, "altura": 210, "paginas": 24, "ladoALado": false },
+  "estilo": { "familia": "Nunito", "espessura": "ExtraBold", "tam": 16, "entrelinha": 1.25, "caixaAlta": true, "alinha": "centro" },
+  "numero": { "margem": 12, "largura": 12, "tam": 14, "espessura": "ExtraBold" },
+  "paginas": [
+    {
+      "imagem": "p01.jpg",
+      "textos": [
+        { "x": 20, "y": 160, "w": 170, "h": 30, "paragrafos": ["Era uma vez uma menina", "que gostava de ajudar."] }
+      ]
+    },
+    {
+      "imagem": "p02.jpg",
+      "numero": 2,
+      "quadros": [ { "x": 20, "y": 20, "w": 170, "h": 32, "cantos": 0.15, "opacidade": 0.85 } ],
+      "textos": [
+        { "x": 26, "y": 25, "w": 158, "h": 24, "paragrafos": [ { "t": ["— Bom dia, ", { "t": "vovô", "espessura": "Black" }, "!"] } ] }
+      ]
+    },
+    {
+      "fundo": [3, 2, 10, 0],
+      "textos": [
+        { "x": 25, "y": 25, "w": 160, "h": 160, "estilo": { "caixaAlta": false, "espessura": "Regular", "tam": 10, "alinha": "esquerda" },
+          "paragrafos": ["Página sem imagem, com fundo creme e texto pequeno (ex.: créditos)."] }
+      ]
+    }
+  ]
+}

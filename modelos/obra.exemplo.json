@@ -1,0 +1,13 @@
+{
+  "titulo": "Nome da obra",
+  "tipo": "livro-infantil | agenda | livro-texto | avulsa",
+  "formato": { "largura": 210, "altura": 240, "paginas": 20, "ladoALado": false },
+  "sangria_mm": 3,
+  "acabamento": "grampeado | colado | wire-o",
+  "grafica": { "nome": "", "contato": "", "pdf": "PDF/X-1a:2003", "perfil": "Coated FOGRA39" },
+  "fontes": [ "Nunito Regular", "Nunito Bold", "Nunito ExtraBold" ],
+  "faixa_etaria": "4 a 5 anos (texto em caixa alta)",
+  "pasta_trabalho": "Área de Trabalho\\<Nome da obra>",
+  "arquivos_af": "OneDrive\\...\\<Nome da obra>\\",
+  "fontes_do_conteudo": { "texto": "caminho do docx ou link do Canva", "imagens": "pasta das artes" }
+}

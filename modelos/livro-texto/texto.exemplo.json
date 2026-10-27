@@ -1,0 +1,17 @@
+{
+  "formato": { "largura": 140, "altura": 210 },
+  "margens": { "topo": 18, "base": 22, "int": 20, "ext": 15 },
+  "estilos": {
+    "titulo":  { "familia": "Nunito", "espessura": "Black",   "tam": 20, "alinha": "esquerda",    "entrelinha": 1.15, "antes": 0, "recuo": 0 },
+    "subtitulo": { "familia": "Nunito", "espessura": "Bold",  "tam": 13, "alinha": "esquerda",    "entrelinha": 1.2,  "antes": 6, "recuo": 0 },
+    "corpo":   { "familia": "Nunito", "espessura": "Regular", "tam": 10.5, "alinha": "justificado", "entrelinha": 1.45, "antes": 1.5, "recuo": 5 },
+    "citacao": { "familia": "Nunito", "espessura": "Regular", "tam": 9.5, "alinha": "esquerda",    "entrelinha": 1.4,  "antes": 3, "recuo": 0 }
+  },
+  "blocos": [
+    { "estilo": "titulo", "t": "Capítulo 1" },
+    { "estilo": "subtitulo", "t": "A educação do Espírito" },
+    { "t": "Primeiro parágrafo do capítulo. Cada bloco é um parágrafo; o estilo padrão é \"corpo\"." },
+    { "t": "Segundo parágrafo. O texto passa sozinho de uma página para a outra, porque os quadros estão encadeados." },
+    { "estilo": "citacao", "t": "Citação literal da obra, com a referência ao fim. (Obra, cap. X, item Y.)" }
+  ]
+}
