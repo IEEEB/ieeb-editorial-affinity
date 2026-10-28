@@ -1,0 +1,304 @@
+{
+ "meses": [
+  {
+   "nome": "Janeiro",
+   "meta": "Desenvolver a gratidão",
+   "gesto": "gratidão",
+   "cor": [
+    100,
+    30,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Fevereiro",
+   "meta": "Desenvolver a fraternidade",
+   "gesto": "fraternidade",
+   "cor": [
+    0,
+    80,
+    10,
+    0
+   ]
+  },
+  {
+   "nome": "Março",
+   "meta": "Desenvolver a alegria",
+   "gesto": "alegria",
+   "cor": [
+    60,
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "nome": "Abril",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    0,
+    55,
+    95,
+    0
+   ]
+  },
+  {
+   "nome": "Maio",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    55,
+    70,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Junho",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    0,
+    90,
+    80,
+    0
+   ]
+  },
+  {
+   "nome": "Julho",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    70,
+    0,
+    10,
+    0
+   ]
+  },
+  {
+   "nome": "Agosto",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    0,
+    30,
+    100,
+    0
+   ]
+  },
+  {
+   "nome": "Setembro",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    80,
+    10,
+    90,
+    10
+   ]
+  },
+  {
+   "nome": "Outubro",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    80,
+    0,
+    40,
+    0
+   ]
+  },
+  {
+   "nome": "Novembro",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    35,
+    50,
+    0,
+    0
+   ]
+  },
+  {
+   "nome": "Dezembro",
+   "meta": "A definir",
+   "gesto": "…",
+   "cor": [
+    10,
+    100,
+    90,
+    0
+   ]
+  }
+ ],
+ "identificacao": [
+  {
+   "campos": [
+    "Turma",
+    "Escola",
+    "Nome da criança",
+    "Responsável",
+    "Endereço"
+   ]
+  },
+  {
+   "campos": [
+    "Contato"
+   ]
+  },
+  {
+   "titulo": "Em caso de emergência",
+   "campos": [
+    "Nome",
+    "Contato",
+    "Tipo sanguíneo"
+   ]
+  },
+  {
+   "titulo": "Quem pode retirar a criança da escola",
+   "linhas": 3
+  },
+  {
+   "titulo": "Observações importantes",
+   "linhas": 4
+  }
+ ],
+ "textos": {
+  "tituloApresentacao": "Queridas famílias",
+  "apresentacao": [
+   "[Carta às famílias: texto da obra, que fica na pasta da obra no OneDrive.]",
+   "Com carinho, Equipe"
+  ],
+  "qr": "Comunicados, autorizações e as vivências em família ficam na área da família da plataforma EB. Aponte a câmera do celular para o código.",
+  "autoavaliacao": "Todos os dias, na escola, a criança pensa no seu dia. Em casa, ela cola na agenda a carinha que escolheu.",
+  "trilha": "Pinte uma bolinha a cada dia em que você praticou a meta do mês."
+ },
+ "rotina": [
+  "Atividade 1 da rotina",
+  "Atividade 2 da rotina",
+  "Atividade 3 da rotina",
+  "Atividade 4 da rotina",
+  "Atividade 5 da rotina",
+  "Atividade 6 da rotina",
+  "Atividade 7 da rotina",
+  "Atividade 8 da rotina",
+  "Atividade 9 da rotina",
+  "Atividade 10 da rotina",
+  "Atividade 11 da rotina",
+  "Atividade 12 da rotina",
+  "Atividade 13 da rotina",
+  "Atividade 14 da rotina",
+  "Atividade 15 da rotina",
+  "Atividade 16 da rotina",
+  "Atividade 17 da rotina",
+  "Atividade 18 da rotina",
+  "Atividade 19 da rotina",
+  "Atividade 20 da rotina",
+  "Atividade 21 da rotina",
+  "Atividade 22 da rotina",
+  "Atividade 23 da rotina",
+  "Atividade 24 da rotina",
+  "Atividade 25 da rotina"
+ ],
+ "carinhas": [
+  {
+   "nome": "Fiz com carinho",
+   "cor": [
+    60,
+    0,
+    90,
+    0
+   ]
+  },
+  {
+   "nome": "Posso melhorar",
+   "cor": [
+    0,
+    30,
+    100,
+    0
+   ]
+  },
+  {
+   "nome": "Preciso de ajuda",
+   "cor": [
+    0,
+    55,
+    95,
+    0
+   ]
+  }
+ ],
+ "enfoques": [
+  {
+   "nome": "Deus",
+   "texto": "Agradeço e faço a minha prece."
+  },
+  {
+   "nome": "Família",
+   "texto": "Ajudo em casa e trato todos com carinho."
+  },
+  {
+   "nome": "Escola",
+   "texto": "Respeito os colegas e a professora."
+  }
+ ],
+ "finais": [
+  {
+   "titulo": "Aniversários da turma",
+   "tipo": "lista"
+  },
+  {
+   "titulo": "Meus amigos",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "Eu cresci!",
+   "tipo": "mao"
+  },
+  {
+   "titulo": "Eu desenhei",
+   "tipo": "quadro"
+  },
+  {
+   "titulo": "Eu desenhei",
+   "tipo": "quadro"
+  },
+  {
+   "titulo": "Eu desenhei",
+   "tipo": "quadro"
+  },
+  {
+   "titulo": "Eu desenhei",
+   "tipo": "quadro"
+  },
+  {
+   "titulo": "Recados",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "Recados",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "Anotações da família",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "Anotações da família",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "Anotações da família",
+   "tipo": "linhas"
+  },
+  {
+   "titulo": "",
+   "tipo": "frase",
+   "texto": "[Frase final: citação a escolher]",
+   "fonte": "[obra e página conferidas na fonte]"
+  }
+ ]
+}

@@ -65,5 +65,5 @@ No fim de cada sessão, acrescente ao `LOG.md` da obra (no OneDrive): data, quem
 | Tipo | Modelo | Referência |
 |---|---|---|
 | Livro infantil ilustrado | `modelos/livro-infantil/` | exemplo real em `obras/_exemplo-analuz/` |
-| Agenda do Instituto | `modelos/agenda/` | gera as páginas a partir de um calendário em JSON |
+| Agenda do Instituto | `modelos/agenda/` | sem ano: 12 meses × (abertura + 5 semanas), textos em `agenda.exemplo.json` |
 | Livro de texto | `modelos/livro-texto/` | texto corrido em quadros encadeados, estilos de parágrafo |

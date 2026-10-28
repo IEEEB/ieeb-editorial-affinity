@@ -21,7 +21,7 @@ Este repositório ensina o Claude a montar, no **Affinity**, as obras do IEEB (I
 Abra a aba Code **na pasta `ieeb-editorial-affinity`** e peça, por exemplo:
 
 - "Vamos diagramar o livro **Quadrinhas de Luz**. A pasta da obra é `<caminho no OneDrive>`."
-- "Vamos montar a **agenda 2027 do Instituto**, A5, uma semana por página dupla."
+- "Vamos montar a **agenda escolar do Instituto**, A5, sem ano, uma semana por página dupla."
 - "Monte a página de teste para eu aprender."
 
 Para pegar as novidades que o coordenador colocar aqui, peça: **"Atualize a pasta do repositório"**.
