@@ -24,14 +24,19 @@ O repositório é público e só de leitura: não precisa de login.
 
 ## 3. Fonte Nunito
 
-- Confira se a Nunito está instalada: procure `Nunito*` em `C:\Windows\Fonts` e em `$env:LOCALAPPDATA\Microsoft\Windows\Fonts`.
-- Se faltar, guie a pessoa: abrir https://fonts.google.com/specimen/Nunito → **Get font** → **Download all** → abrir o ZIP → entrar na pasta `static` → selecionar todos os arquivos → botão direito → **Instalar**. Reiniciar o Affinity depois.
-- Precisa ter pelo menos Regular, Bold, ExtraBold e Black.
+- Confira se a Nunito está em **`C:\Windows\Fonts`**. Se ela estiver só em `$env:LOCALAPPDATA\Microsoft\Windows\Fonts` (instalada "só para mim"), o Affinity pode não enxergar: trate como não instalada.
+- Se faltar, guie a pessoa:
+  1. abrir https://fonts.google.com/specimen/Nunito → **Get font** → **Download all**;
+  2. descompactar o ZIP e entrar na pasta `static`;
+  3. abrir a pasta **Fontes** do Windows (tecla Windows + R, digitar `shell:fonts`, Enter);
+  4. selecionar todos os arquivos da pasta `static` e **arrastar para a pasta Fontes**, aceitando a permissão de administrador.
+- **Feche e abra o Affinity de novo** depois de instalar. Num computador da equipe, só reabrir não bastou enquanto a fonte não estava na pasta Fontes do Windows (relato de 27/10/2026).
+- Precisa ter pelo menos Regular, Bold, ExtraBold e Black. Confirme pelo teste do passo 4, que lista as espessuras que o Affinity enxerga.
 
 ## 4. Conector do Affinity
 
 1. Peça para abrir o Affinity.
-2. Peça para ligar o servidor MCP nas Preferências do Affinity (procure "MCP" nas Preferências) e deixar ligadas as permissões de arquivos.
+2. Peça para ligar o servidor MCP no Affinity em **Configurações → Protocolo de contexto do modelo** e deixar ligadas as permissões de arquivos.
 3. Peça para conferir no app Claude: **Configurações → Conectores → Affinity** ligado. Se acabou de ligar, reiniciar o app Claude.
 4. Teste: rode `biblioteca/teste-conexao.js` com a ferramenta `execute_script` do Affinity. Deve listar a Área de Trabalho, os documentos abertos e as espessuras da Nunito. Se não houver ferramenta do Affinity nesta sessão, o conector ainda não está ligado: volte ao passo 2.
 

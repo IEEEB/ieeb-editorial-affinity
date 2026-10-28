@@ -10,7 +10,7 @@ Caminhos relativos à raiz do repositório. `SK` = `.claude/skills/affinity-ieeb
 ## Etapa 0 — Abertura
 
 1. Leia `SK/referencias/01-armadilhas-do-affinity.md`. Não pule.
-2. Teste o conector: rode `biblioteca/teste-conexao.js` com `execute_script`. Ele devolve a versão, a Área de Trabalho e os documentos abertos. Erro → peça à pessoa para abrir o Affinity e ligar o MCP (ver `docs/01-primeiro-uso.md`).
+2. Teste o conector: rode `biblioteca/teste-conexao.js` com `execute_script`. Ele devolve a versão, a Área de Trabalho e os documentos abertos. Erro → peça à pessoa para abrir o Affinity e ligar o MCP em **Configurações → Protocolo de contexto do modelo** (ver `CONFIGURAR.md`, passo 4).
 3. Pergunte onde está a pasta da obra no OneDrive (se a pessoa não disse). Se a obra já existe, leia o `LOG.md` e o `obra.json` de lá. Se o computador ainda não foi configurado, siga `CONFIGURAR.md` primeiro.
 4. Pessoa nova na equipe ou pedido de "página de teste": rode `biblioteca/base.js` + `biblioteca/exemplo-pagina-teste.js`, mostre o render e explique o que cada função fez. Peça para fechar o documento de teste sem salvar.
 

@@ -21,6 +21,7 @@ Cada item diz o que acontece e o que fazer. Acrescente aqui o que descobrir de n
 ## Texto
 
 - **O estilo padrão do quadro de texto põe 12 pt depois de cada parágrafo.** Sempre zere: `p.spaceAfter = 0` (e `spaceBefore`, se for o caso).
+- **Fonte instalada "só para mim" pode não aparecer no Affinity.** Num computador da equipe, a Nunito só apareceu depois de arrastada para a pasta Fontes do Windows (`C:\Windows\Fonts`) e com o Affinity fechado e aberto de novo. (27/10/2026.)
 - **Fonte inexistente não dá erro**: o texto sai em outra fonte. Procure a fonte antes (`F.FontFamily.all`, depois `fonts` da família e `traitsName`, por exemplo `'Regular'`, `'Bold'`, `'ExtraBold'`) e pare se não achar. Em 27/10/2026 a Nunito Medium não estava instalada no computador do coordenador.
 - **Largura do texto muda entre programas.** O mesmo texto do Canva em Nunito ocupa mais espaço no Affinity. Dê folga de ~12% na largura do quadro e confira no render.
 - **Caixa alta**: converta no script (`toUpperCase()`), não na fonte, para o PDF ter o texto certo.
